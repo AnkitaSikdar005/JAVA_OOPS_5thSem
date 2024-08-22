@@ -1,6 +1,6 @@
 # JAVA_OOPS_5thSem✨💫
-This repository contains all the programs in Java for OOPS lab(Practical Assignment).
-# Java Programming Exercises
+This repository contains all the programs in Java for OOPS lab(Practical Assignment).💻
+# Java Programming Exercises👩🏻‍💻💡
 
 ## Basic Programs
 1. **Write a program to check whether a number is Ramanujan number or not** <br>
