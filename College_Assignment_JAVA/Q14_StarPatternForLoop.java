@@ -1,10 +1,10 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Q14_StarPatternForLoop {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter an integer number: ");
-        int n = scanner.nextInt();
+        int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
@@ -13,6 +13,6 @@ public class Q14_StarPatternForLoop {
             System.out.println();
         }
 
-        scanner.close();
+        sc.close();
     }
 }
