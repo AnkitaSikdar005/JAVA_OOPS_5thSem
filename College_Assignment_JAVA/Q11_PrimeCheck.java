@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Q11_PrimeCheck {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        int number = scanner.nextInt();
+        int number = sc.nextInt();
         boolean isPrime = true;
 
         if (number <= 1) {
@@ -24,6 +24,6 @@ public class Q11_PrimeCheck {
             System.out.println(number + " is not a prime number.");
         }
 
-        scanner.close();
+        sc.close();
     }
 }
