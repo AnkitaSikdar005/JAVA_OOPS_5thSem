@@ -33,9 +33,11 @@ O/P Expected: The sum of 10 and 20 is 30<br>
 lastDigit (7, 17) → true<br>
 lastDigit (6, 17) → false<br>
 lastDigit (3, 113) → true<br>
+
+---
 7. **Write a program to check if a given integer number is odd or even.**
 
-   ---
+---
 
 8. **Write a program to check if the program has received command line arguments or not.**  
 If the program has not received arguments, then print "No Values", else print all the values in a single line separated by a comma (`,`).  
@@ -120,31 +122,31 @@ C:>java Sample 1234 O/P: 1234 is not a palindrome<br>
 
 ---
 
-### 17. Array Maximum and Minimum
+###  Array Maximum and Minimum
 
-Write a program to initialize an integer array and find the maximum and minimum value of the array.
+17.Write a program to initialize an integer array and find the maximum and minimum value of the array.
 
 ---
 
-### 18. Array Sorting
+###  Array Sorting
 
-Write a program to initialize an array and print them in a sorted order.
+18.Write a program to initialize an array and print them in a sorted order.
 
 ---
 
 ## OOPS / Inheritance
 
-### 19. Box Class with Volume Calculation
+### Box Class with Volume Calculation
 
-Create a class `Box` that uses a parameterized constructor to initialize the dimensions of a box. The dimensions of the box are width, height, and depth. The class should have a method that can return the volume of the box.
+ 19.Create a class `Box` that uses a parameterized constructor to initialize the dimensions of a box. The dimensions of the box are width, height, and depth. The class should have a method that can return the volume of the box.
 
 - **Objective:** Create an object of the `Box` class and test the functionality.
 
 ---
 
-### 20. Calculator Class with Power Methods
+###  Calculator Class with Power Methods
 
-Create a new class called `Calculator` with the following methods:
+20.Create a new class called `Calculator` with the following methods:
 
 1. **Static Method:** `powerInt(int num1, int num2)`
    - This method should return `num1` raised to the power `num2`.
