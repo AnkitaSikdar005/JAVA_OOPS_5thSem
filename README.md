@@ -58,13 +58,13 @@ O/P: Mumbai, Bangalore <br>
 
   ---
 
-9. **Write a program to print numbers from 1 to 10 in a single row with one tab space.**
+10. **Write a program to print numbers from 1 to 10 in a single row with one tab space.**
 
     ---
 
 ## Intermediate Programs
 
-10. **Write a program to print even numbers between 23 and 57. Each number should be printed in a separate row.**
+11. **Write a program to print even numbers between 23 and 57. Each number should be printed in a separate row.**
 
    ---
 
