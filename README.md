@@ -159,10 +159,66 @@ C:>java Sample 1234 O/P: 1234 is not a palindrome<br>
 - **Hint:** Use `Math.pow(double, double)` to calculate the power.
 
 ---
+# Java Encapsulation, Abstraction, and Inheritance Examples
 
-## How to Contribute
+## Encapsulation and Abstraction
 
-You can contribute by submitting pull requests for additional exercises or improvements to the code.
+### Problem Statement
+
+21. 1.Create a class `Author` with the following information:
+    - Member variables: `name` (String), `email` (String), and `gender` (char)
+    - Parameterized Constructor: To initialize the variables
+    - Getters and Setters for all the member variables
+
+    2.Create a class `Book` with the following information:
+    - Member variables: `name` (String), `author` (of the class `Author`), `price` (double), and `qtyInStock` (int)
+    - Parameterized Constructor: To initialize the variables
+    - Getters and Setters for all the member variables
+
+    3.In the main method, create a book object and print all details of the book (including the author details).
+
+  ---
+
+## Inheritance
+### Problem Statement
+22. Create a class named `Animal` which includes methods like `eat()` and `sleep()`.<br>
+    Create a child class of `Animal` named `Bird` and override the parent class methods. Add a new method named `fly()`. <br>
+    Create an instance of `Animal` and invoke the `eat` and `sleep` methods using this object. <br>
+    Create an instance of `Bird` and invoke the `eat`, `sleep`, and `fly` methods using this object. <br>
+
+ ---
+
+## Inheritance (Person and Employee)
+ ### Problem Statement
+23. Create a class called `Person` with a member variable `name`. Save it in a file called `Person.java`.<br>
+    Create a class called `Employee` that will inherit the `Person` class. The other data members of the `Employee` class are `annualSalary` (double), the `year` the employee started to work, and the 
+   `nationalInsuranceNumber` which is a `String`. Save this in a file called `Employee.java`.<br>
+    Your class should have the necessary constructors and getter/setter methods.<br>
+    Write another class called `TestEmployee`, containing a main method to fully test your class definition.<br>
+
+### Solution
+
+The solution for the Person and Employee inheritance problem is provided in the following files:
+- `Q23_Person.java`: Defines the `Person` class.
+- `Q23_Employee.java`: Defines the `Employee` class which inherits from `Person`.
+- `Q23_TestEmployee.java`: Contains the main method to create and test instances of `Employee`.
+
+---
+
+## How to Run the Code
+
+1. Clone this repository to your local machine.<br>
+2. Open a terminal and navigate to the directory where the files are located.<br>
+3. Compile the Java files. Assuming you have Q23_TestEmployee.java and Q23_Employee.java in the same directory, you can compile them using:<br>
+
+   ```sh
+   javac Q23_TestEmployee.java Q23_Employee.java
+
+4.  Run the compiled Java program:
+   ```sh
+    java Q23_TestEmployee
+
+   ```
 
 
 
