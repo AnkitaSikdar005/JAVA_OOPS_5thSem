@@ -209,7 +209,7 @@ The solution for the Person and Employee inheritance problem is provided in the 
 
 1. Clone this repository to your local machine.<br>
 2. Open a terminal and navigate to the directory where the files are located.<br>
-3. Compile the Java files. Assuming you have Q23_TestEmployee.java and Q23_Employee.java in the same directory, you can compile them using:<br>
+3. Compile the Java files. Assuming you have TestEmployee.java and Employee.java in the same directory, you can compile them using:<br>
 
    ```sh
    javac Q23_TestEmployee.java Q23_Employee.java
