@@ -28,18 +28,18 @@ O/P Expected: The sum of 10 and 20 is 30<br>
 
      ---
 
-6. **Given two non-negative int values, print true if they have the same last digit, such as with 27 and 57.**  
+5. **Given two non-negative int values, print true if they have the same last digit, such as with 27 and 57.**  
 **Examples:** <br>
 lastDigit (7, 17) → true<br>
 lastDigit (6, 17) → false<br>
 lastDigit (3, 113) → true<br>
 
 ---
-7. **Write a program to check if a given integer number is odd or even.**
+6. **Write a program to check if a given integer number is odd or even.**
 
 ---
 
-8. **Write a program to check if the program has received command line arguments or not.**  
+7. **Write a program to check if the program has received command line arguments or not.**  
 If the program has not received arguments, then print "No Values", else print all the values in a single line separated by a comma (,).  
 **Example1:** <br>
 java Example<br>
@@ -51,7 +51,7 @@ O/P: Mumbai, Bangalore <br>
 
 ---
 
-9. **Write a program to accept gender ("Male" or "Female") and age from command line arguments and print the percentage of interest based on the given conditions.**  
+8. **Write a program to accept gender ("Male" or "Female") and age from command line arguments and print the percentage of interest based on the given conditions.**  
 **Conditions:**  
 - If the gender is 'Female' and age is between 1 and 58, the percentage of interest is 8.2%.  
 - If the gender is 'Female' and age is between 59 and 100, the percentage of interest is 9.2%.  
@@ -59,32 +59,31 @@ O/P: Mumbai, Bangalore <br>
 - If the gender is 'Male' and age is between 59 and 100, the percentage of interest is 10.5%.
 
   ---
-
-10. **Write a program to print numbers from 1 to 10 in a single row with one tab space.**
+9. **Write a program to print numbers from 1 to 10 in a single row with one tab space.**
 
     ---
 
 ## Intermediate Programs
 
-11. **Write a program to print even numbers between 23 and 57. Each number should be printed in a separate row.**
+10. **Write a program to print even numbers between 23 and 57. Each number should be printed in a separate row.**
 
    ---
 
-12. **Write a program to check if a given number is prime or not.**
+11. **Write a program to check if a given number is prime or not.**
 
     ---
 
-13. **Write a program to print prime numbers between 10 and 99.**
+12. **Write a program to print prime numbers between 10 and 99.**
 
     ---
 
-14. **Write a program to print the sum of all the digits of a given number.**  
+13. **Write a program to print the sum of all the digits of a given number.**  
  **Example1:** <br>
  I/P: 1234<br>
  O/P: 10 <br>
 
  ---
-15. **Write a program to print * in the following format (using for and while loop):**  
+14. **Write a program to print * in the following format (using for and while loop):**  
  ```
  *  
  * *  
