@@ -40,7 +40,7 @@ lastDigit (3, 113) → true<br>
 ---
 
 8. **Write a program to check if the program has received command line arguments or not.**  
-If the program has not received arguments, then print "No Values", else print all the values in a single line separated by a comma (`,`).  
+If the program has not received arguments, then print "No Values", else print all the values in a single line separated by a comma (,).  
 **Example1:** <br>
 java Example<br>
 O/P: No values<br>
