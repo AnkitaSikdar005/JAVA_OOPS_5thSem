@@ -203,6 +203,51 @@ The solution for the Person and Employee inheritance problem is provided in the 
 - `Q23_TestEmployee.java`: Contains the main method to create and test instances of `Employee`.
 
 ---
+#  Polymorphism and Inheritance
+
+
+##  Overriding/Polymorphism with Fruit, Apple, and Orange
+
+### Problem Statement:
+24. Create a base class `Fruit` with the following attributes:
+   - `name`
+   - `taste`
+   - `size`
+
+   Create a method called `eat()` which describes the name of the fruit and its taste.
+
+   Inherit the same in 2 other classes: `Apple` and `Orange`, and override the `eat()` method to represent each fruit's unique taste.
+
+
+##  Polymorphism with Shape, Circle, Triangle, and Square
+
+### Problem Statement:
+25. Write a program to create a class named `Shape`. It should contain two methods:
+   - `draw()` which prints "Drawing Shape"
+   - `erase()` which prints "Erasing Shape"
+
+   Create three subclasses:
+   - `Circle`
+   - `Triangle`
+   - `Square`
+
+   Each subclass should override the parent class functions:
+   - `draw()` should print "Drawing Circle", "Drawing Triangle", and "Drawing Square" respectively.
+   - `erase()` should print "Erasing Circle", "Erasing Triangle", and "Erasing Square" respectively.
+
+   Create objects of `Circle`, `Triangle`, and `Square` and observe the polymorphic nature of the class by calling the `draw()` and `erase()` methods using each object.
+
+---
+
+## How to Contribute
+
+1. Fork the repository.
+2. Create your feature branch: `git checkout -b feature/your-feature`.
+3. Commit your changes: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature/your-feature`.
+5. Open a pull request.
+
+
 
 ## How to Run the Code
 
