@@ -350,7 +350,7 @@ This project demonstrates the use of abstract classes, inheritance, and polymorp
 
 ## **Problem Statement**
 
-1. **Abstract Class**: 
+26.1. **Abstract Class**: 
    - Create an abstract class `Compartment` to represent a rail coach.
    - Provide an abstract method:
      ```java
