@@ -403,6 +403,57 @@ It handles the following exceptions:
 
 
 ---
+# Employee Management System
+
+This Java program simulates an **Employee Management System** using concepts of **constructor**, **method overloading**, **method overriding**, and **inheritance**.
+
+---
+
+## Problem Statement
+
+The system includes the following components:
+1. **Employee Class** (Base Class):
+   - Fields: `employeeId`, `name`, `salary`.
+   - Constructor: Initializes the fields.
+   - Methods:
+     - `displayDetails()`: Displays employee details.
+     - `calculateBonus()`: Returns a fixed bonus of 5% of the salary.
+
+2. **Manager Class** (Derived Class):
+   - Inherits from `Employee`.
+   - Additional Fields: `teamSize`, `department`.
+   - Constructor: Initializes all fields.
+   - Method Overloading: `calculateBonus(int performanceScore)`:
+     - Bonus is 10% of salary if the performance score is > 8.
+     - Bonus is 7% of salary otherwise.
+
+3. **Engineer Class** (Derived Class):
+   - Inherits from `Employee`.
+   - Additional Field: `specialization`.
+   - Constructor: Initializes all fields.
+   - Method Overriding: `calculateBonus()` returns a fixed 6% of the salary.
+
+4. **Main Class**:
+   - Creates an array of employees (both `Manager` and `Engineer` objects).
+   - Displays employee details and calculates bonuses for each employee.
+
+---
+
+## Features
+
+- **Inheritance**: The `Manager` and `Engineer` classes inherit properties and methods from the `Employee` class.
+- **Method Overloading**: The `calculateBonus()` method in the `Manager` class is overloaded to include performance scores.
+- **Method Overriding**: The `Engineer` class overrides the `calculateBonus()` method to implement its own bonus calculation.
+- **Polymorphism**: Demonstrated by iterating over the `Employee` array and calling methods dynamically.
+
+---
+
+## How to Run
+
+1. **Compile the Program**:
+   ```bash
+   javac EmployeeManagementSystem.java
+
 
 ## How to Contribute
 
