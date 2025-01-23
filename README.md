@@ -378,15 +378,28 @@ This project demonstrates the use of abstract classes, inheritance, and polymorp
      - `3` → `General`
      - `4` → `FirstClass`
 
+# Exception Handling in Array Access
 
+This program demonstrates the use of **exception handling** in Java for array access. The program accepts:
+- The size of the array
+- The elements of the array
+- The index of the element to access
 
+It handles the following exceptions:
+- **ArrayIndexOutOfBoundsException**: Occurs when the index entered is outside the valid range.
+- **NumberFormatException**: Occurs when non-numeric input is provided for array elements or the index.
 
+---
 
+## **Problem Statement**
 
-
-
-
-
+32.Write a Java program that:
+1. Prompts the user to:
+   - Enter the size of the array.
+   - Enter the elements of the array.
+   - Enter the index of the array element to access.
+2. Prints the element at the specified index.
+3. Handles exceptions for invalid inputs and out-of-range indices.
 
 
 ---
