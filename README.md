@@ -378,11 +378,9 @@ This project demonstrates the use of abstract classes, inheritance, and polymorp
      - `3` → `General`
      - `4` → `FirstClass`
 
----
 
-## **Folder Structure**
 
-The folder structure for the project is as follows:
+
 
 
 
