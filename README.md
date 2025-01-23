@@ -342,6 +342,48 @@ Example Output:
 Playing Veena...
 Playing Saxophone...
 ```
+# Rail Coach Compartment System
+
+This project demonstrates the use of abstract classes, inheritance, and polymorphism in Java. It simulates a rail coach system with compartments, where each type of compartment displays a specific notice message. The project also involves random compartment assignment to illustrate dynamic polymorphism.
+
+---
+
+## **Problem Statement**
+
+1. **Abstract Class**: 
+   - Create an abstract class `Compartment` to represent a rail coach.
+   - Provide an abstract method:
+     ```java
+     public abstract String notice();
+     ```
+
+2. **Derived Classes**:
+   - Derive the following classes from `Compartment`:
+     - `FirstClass`
+     - `Ladies`
+     - `General`
+     - `Luggage`
+   - Override the `notice()` method in each class to provide a message that suits the specific compartment type.
+
+3. **Polymorphism**:
+   - Create a class `TestCompartment` with the following functionality:
+     - Declare an array of `Compartment` objects of size 10.
+     - Populate the array by creating compartments of different types based on a random number (1 to 4).
+     - Demonstrate polymorphism by calling the `notice()` method for each compartment.
+
+4. **Random Assignment**:
+   - Use a randomly generated number to determine the type of compartment:
+     - `1` → `Luggage`
+     - `2` → `Ladies`
+     - `3` → `General`
+     - `4` → `FirstClass`
+
+---
+
+## **Folder Structure**
+
+The folder structure for the project is as follows:
+
 
 
 
