@@ -237,6 +237,118 @@ The solution for the Person and Employee inheritance problem is provided in the 
 
    Create objects of `Circle`, `Triangle`, and `Square` and observe the polymorphic nature of the class by calling the `draw()` and `erase()` methods using each object.
 
+   # Java Interface and Package Example
+
+This project demonstrates the use of Java interfaces and packages. The goal is to implement an interface named `Playable` and two classes, `Veena` and `Saxophone`, which implement this interface. These classes are organized into separate packages to illustrate proper Java package usage.
+
+---
+
+## **Folder Structure**
+
+To organize the project, create the following folder structure manually:
+
+```
+College_Assignment_JAVA/
+│
+├── music/
+│   ├── Playable.java
+│   ├── string/
+│   │   └── Veena.java
+│   └── wind/
+│       └── Saxophone.java
+│
+└── live/
+    └── Test.java
+```
+
+### Steps to Create the Folder Structure:
+
+1. **Create the Root Directory**:
+   - Create a folder named `College_Assignment_JAVA`.
+
+2. **Create Subfolders for Packages**:
+   - Inside `College_Assignment_JAVA`, create a folder named `music`.
+   - Inside `music`, create two subfolders: `string` and `wind`.
+   - Inside `College_Assignment_JAVA`, create another folder named `live`.
+
+3. **Place Files in Appropriate Folders**:
+   - Save `Playable.java` inside the `music` folder.
+   - Save `Veena.java` inside the `music/string` folder.
+   - Save `Saxophone.java` inside the `music/wind` folder.
+   - Save `Test.java` inside the `live` folder.
+
+---
+
+## **Classes and Packages**
+
+1. **Playable Interface** (`music/Playable.java`):
+   - Contains a method `void play();` that must be implemented by all classes that implement this interface.
+
+2. **Veena Class** (`music/string/Veena.java`):
+   - Implements the `Playable` interface.
+   - Overrides the `play()` method to provide functionality specific to `Veena`.
+
+3. **Saxophone Class** (`music/wind/Saxophone.java`):
+   - Implements the `Playable` interface.
+   - Overrides the `play()` method to provide functionality specific to `Saxophone`.
+
+4. **Test Class** (`live/Test.java`):
+   - Creates instances of `Veena` and `Saxophone`, calls their `play()` methods, and demonstrates polymorphism by assigning them to a `Playable` type variable.
+
+---
+
+## **Commands to Compile and Run the Program**
+
+### Step 1: Navigate to the Project Directory
+Navigate to the directory where your project is located:
+```bash
+cd d:\College_Assignment_JAVA
+```
+
+---
+
+### Step 2: Compile the Code
+
+Compile all `.java` files from the root directory (`College_Assignment_JAVA`) to ensure that the package structure is respected. Use the following command:
+
+```bash
+javac -d . music/Playable.java music/string/Veena.java music/wind/Saxophone.java live/Test.java
+```
+Explanation:
+- `-d .`: Specifies the root directory (`.`) for placing the compiled `.class` files into their respective packages.
+- The `.java` files are explicitly listed for compilation.
+
+---
+
+### Step 3: Run the Program
+
+Run the `Test` class from the `live` package by specifying its fully qualified name:
+
+```bash
+java live.Test
+```
+
+---
+
+## **Expected Output**
+
+When you run the program, it will:
+1. Create an instance of the `Veena` class and call the `play()` method.
+2. Create an instance of the `Saxophone` class and call the `play()` method.
+3. Demonstrate polymorphism by assigning the instances to a `Playable` type variable.
+
+Example Output:
+```
+Playing Veena...
+Playing Saxophone...
+```
+
+
+
+
+
+
+
 ---
 
 ## How to Contribute
